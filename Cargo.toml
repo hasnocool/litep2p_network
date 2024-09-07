@@ -1,0 +1,9 @@
+[package]
+name = "litep2p_network"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+litep2p = "0.7.0"
+futures = "0.3"
