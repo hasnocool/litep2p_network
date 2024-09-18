@@ -1,24 +1,44 @@
-Here's a summary of the project:
+Here's a structured summary of your "Litep2P_Network" project:
 
 1. **Project Name:** Litep2P_Network
-2. **Short Description:** A Rust-based implementation of a peer-to-peer network using the libp2p protocol suite.
-3. **Overall Description:** Litep2P_Network is an open-source, asynchronous peer-to-peer networking library written in Rust, utilizing the libp2p protocol suite for building decentralized networks. It provides support for multiple transports (TCP and QUIC) and protocols (libp2p ping and request-response). The project showcases a simple event-driven architecture for handling network events.
-4. **Main Purpose:** I built this to create a basic framework for experimenting with libp2p-based peer-to-peer networking in Rust, allowing developers to focus on building decentralized applications without worrying about the underlying protocol complexities.
-5. **Key Technologies:**
-	* Rust programming language
-	* libp2p protocol suite (libp2p and associated protocols)
-	* Tokio asynchronous runtime
-6. **Unique Features:**
-	* Support for both TCP and QUIC transports
-	* Integrated libp2p ping and request-response protocols
-	* Simple event-driven architecture for handling network events
-7. **Future Improvements:**
-	* Adding support for other transports (e.g., WebSockets)
-	* Enhancing the event-driven architecture with better error handling and logging mechanisms
-8. **Personal Notes:** I'm excited to see where this project takes me in terms of exploring decentralized networking and its potential applications.
-9. **GitHub Tags:** peer-to-peer-networking, libp2p, Rust, decentralized-applications, QUIC, TCP, request-response-protocol, ping-protocol, event-driven-architecture.
+2. **Short Description:** A peer-to-peer network built using the `litep2p` library and utilizing various transport protocols.
+3. **Overall Description:** The Litep2P_Network project is an experimental development that leverages the capabilities of the `litep2p` library to create a decentralized, peer-to-peer network. This project utilizes multiple transport protocols such as TCP and QUIC to facilitate communication between nodes in the network. It also enables the IPFS PING protocol and request-response protocol for efficient data exchange.
+4. **Main Purpose:** The primary purpose of this project is to experiment with various technologies and create innovative solutions for decentralized networking.
 
-# Extractable Variables
-SHORT_DESCRIPTION = "A Rust-based implementation of a peer-to-peer network using the libp2p protocol suite."
-OVERALL_DESCRIPTION = "Litep2P_Network is an open-source, asynchronous peer-to-peer networking library written in Rust, utilizing the libp2p protocol suite for building decentralized networks. It provides support for multiple transports (TCP and QUIC) and protocols (libp2p ping and request-response). The project showcases a simple event-driven architecture for handling network events."
-GITHUB_TAGS = "peer-to-peer-networking, libp2p, Rust, decentralized-applications, QUIC, TCP, request-response-protocol, ping-protocol, event-driven-architecture."
+5. **Key Technologies:**
+   - [Tokio] (a asynchronous runtime)
+   - [Litep2P] (a peer-to-peer network library)
+   - [Futures] (a library for working with asynchronous data streams)
+
+6. **Unique Features:**
+   - Support for multiple transport protocols (TCP and QUIC)
+   - Built-in support for IPFS PING protocol
+   - Request-response protocol enabled
+
+7. **Future Improvements:**
+   - Integration with other decentralized technologies (e.g., blockchain, DHTs)
+   - Enhanced security features (e.g., encryption, authentication)
+
+8. **Personal Notes:** This project has been a great learning experience for experimenting with new technologies and pushing the boundaries of what is possible in decentralized networking.
+
+9. **GitHub Tags:** litep2p,tokio,futures,quic,tcp,ipfs,p2p,experimental,innovative,solutions,decentralized
+
+10. **Installable Modules:** The project utilizes custom installable modules such as `litep2p` and `tokio`, which can be installed using the following command: `cargo add litep2p tokio futures`
+
+11. **Suggested Folder Names:** src/lib/main/data/config
+
+12. **Root Project Folder Name Suggestions:** LiteP2P Network, Decentralized Network Experiment, P2P Protocols Playground
+
+# Extracted Variables:
+PROJECT_NAME = "Litep2P_Network"
+SHORT_DESCRIPTION = "A peer-to-peer network built using the `litep2p` library and utilizing various transport protocols."
+OVERALL_DESCRIPTION = "The Litep2P_Network project is an experimental development that leverages the capabilities of the `litep2p` library to create a decentralized, peer-to-peer network. This project utilizes multiple transport protocols such as TCP and QUIC to facilitate communication between nodes in the network. It also enables the IPFS PING protocol and request-response protocol for efficient data exchange."
+MAIN_PURPOSE = "The primary purpose of this project is to experiment with various technologies and create innovative solutions for decentralized networking."
+KEY_TECHNOLOGIES = "[Tokio] (a asynchronous runtime), [Litep2P] (a peer, to, peer network library), [Futures] (a library for working with asynchronous data streams)"
+UNIQUE_FEATURES = "Support for multiple transport protocols (TCP and QUIC), Built, in support for IPFS PING protocol, Request, response protocol enabled"
+FUTURE_IMPROVEMENTS = "Integration with other decentralized technologies (e.g., blockchain, DHTs), Enhanced security features (e.g., encryption, authentication)"
+PERSONAL_NOTES = "This project has been a great learning experience for experimenting with new technologies and pushing the boundaries of what is possible in decentralized networking."
+GITHUB_TAGS = "litep2p, tokio, futures, quic, tcp, ipfs, p2p, experimental, innovative, solutions, decentralized"
+INSTALLABLE_MODULES = "The project utilizes custom installable modules such as `litep2p` and `tokio`, which can be installed using the following command: `cargo add litep2p tokio futures`"
+SUGGESTED_FOLDER_NAMES = "src/lib/main/data/config"
+ROOT_PROJECT_FOLDER_NAME_SUGGESTIONS = "LiteP2P Network, Decentralized Network Experiment, P2P Protocols Playground"
